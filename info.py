@@ -63,7 +63,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://khajuriavansh967_db_us
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
-MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
+MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
 O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://khajuriavansh967_db_user:nehal969797@cluster0.2y4askj.mongodb.net/?appName=Cluster0")   # This Db Is For Other Data Store
@@ -126,8 +126,8 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '0bf3bf75fb85c68eb1ccafc1c1460f97dee5c04f')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arlinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '60807004afba8c85122c55002f62354430f28699')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/disneysworl_d') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 # Others
@@ -195,6 +195,7 @@ else:
 # Don't Remove Credit @VJ_Bots
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
